@@ -1799,4 +1799,46 @@ footer p {
     .contact-wrapper {
         padding: 30px 20px;
     }
+
+    /* Projects Mobile Responsiveness */
+    .projects-nav {
+        display: none; /* Hide nav buttons on mobile, rely on touch swipe */
+    }
+    
+    .projects-carousel-wrapper {
+        gap: 0;
+    }
+    
+    .featured-layout {
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .project-info h3, .featured-info h3 {
+        font-size: 1.2rem;
+    }
+    
+    .metric-number {
+        font-size: 1.4rem;
+    }
+    
+    .metric-box {
+        padding: 10px 5px;
+    }
+    
+    .mac-window {
+        border-radius: 8px;
+    }
+    
+    .mobile-overlay-frame {
+        right: 0;
+        bottom: 0;
+        width: 40%;
+        min-width: 90px;
+    }
+    
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
 }
