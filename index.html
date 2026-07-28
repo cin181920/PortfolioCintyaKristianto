@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a dynamic professional specializing as a Project Manager, Laravel Developer, and Mobile Developer.">
+    <title>Portfolio | Project Manager, Laravel & Mobile Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Welcome To My Portfolio<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="nav_home">Home</a></li>
+            <li><a href="#expertise" data-i18n="nav_expertise">Expertise</a></li>
+            <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+            <li><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+            <li class="lang-switch">
+                <select id="lang-selector">
+                    <option value="en">English</option>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="es">Español</option>
+                </select>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Animated Background Orbs -->
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <!-- Background image -->
+        <div class="hero-bg"></div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="greeting" data-i18n="hero_greeting">Ready to build the future?</p>
+                <h1 class="dynamic-text-container">
+                    I am a <br>
+                    <span class="dynamic-text"></span><span class="cursor">&nbsp;</span>
+                </h1>
+                <p class="hero-description" data-i18n="hero_desc">
+                    I help forward-thinking companies build scalable tech products. Whether you need a <strong>Project
+                        Manager</strong> to lead your team, a <strong>Laravel Developer</strong> for fullstack web
+                    applications, or
+                    a <strong>Mobile Developer</strong> for seamless apps, I deliver results. Let's create something
+                    extraordinary.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary" data-i18n="btn_projects">View My Work</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="btn_contact">Let's Talk</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="profile-container" id="tilt-card">
+                    <!-- Floating Badges -->
+                    <div class="floating-badge badge-pm">
+                        <i class="fas fa-tasks"></i>
+                        <span>Project Manager</span>
+                    </div>
+                    <div class="floating-badge badge-web">
+                        <i class="fab fa-laravel"></i>
+                        <span>Web Developer</span>
+                    </div>
+                    <div class="floating-badge badge-mobile">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Mobile Dev</span>
+                    </div>
+
+                    <!-- Formal Photo -->
+                    <div class="profile-image-wrapper">
+                        <img src="assets/profil.jpg?v=2" alt="Cintya Kristianto Profile" class="profile-img" style="object-position: 100% 50%;">
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack / Tools Section -->
+    <section class="tech-stack-section">
+        <div class="container">
+            <p class="tech-title" data-i18n="tech_title">POWERING PROJECTS WITH MODERN TOOLS</p>
+            <div class="skills-grid">
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-laravel"></i> Laravel</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-php"></i> PHP</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-react"></i> React Native</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-android"></i>Kotlin & Jetpack Compose </span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-android"></i>Flutter & Dart </span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-jira"></i> Jira & Agile</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-figma"></i> UI/UX (Figma)</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fab fa-python"></i> Python & AI</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item reveal">
+                    <div class="skill-info">
+                        <span><i class="fas fa-database"></i> SQL Databases</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise section-padding">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="exp_title_1">My </span><span
+                    data-i18n="exp_title_2">Expertise</span></h2>
+            <div class="expertise-grid">
+                <!-- Card 1: Project Manager -->
+                <div class="glass-card expertise-card reveal">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3 data-i18n="exp_pm_title">Project Management</h3>
+                    <p data-i18n="exp_pm_desc">Leading cross-functional teams using Agile & Scrum methodologies.
+                        Ensuring on-time delivery, clear communication, and strategic product roadmapping.</p>
+                    <ul class="skills-list">
+                        <li>Agile / Scrum</li>
+                        <li>Jira / Trello</li>
+                        <li>Risk Management</li>
+                        <li>Team Leadership</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Laravel / Fullstack -->
+                <div class="glass-card expertise-card reveal">
+                    <div class="icon-wrapper">
+                        <i class="fab fa-laravel"></i>
+                    </div>
+                    <h3 data-i18n="exp_web_title">Web Development</h3>
+                    <p data-i18n="exp_web_desc">Architecting scalable backend systems with Laravel and PHP, while
+                        crafting responsive, dynamic frontend experiences with modern UI/UX principles.</p>
+                    <ul class="skills-list">
+                        <li>PHP / Laravel</li>
+                        <li>MySQL / PostgreSQL</li>
+                        <li>REST APIs</li>
+                        <li>Server Architecture</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Mobile Developer -->
+                <div class="glass-card expertise-card reveal">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 data-i18n="exp_mob_title">Mobile Development</h3>
+                    <p data-i18n="exp_mob_desc">Building native and cross-platform mobile applications using Kotlin,
+                        Jetpack Compose, and React Native for Android and iOS platforms.</p>
+                    <ul class="skills-list">
+                        <li>Kotlin & Jetpack Compose</li>
+                        <li>Flutter & Dart</li>
+                        <li>UI/UX Implementation</li>
+                        <li>State Management</li>
+                        <li>App Store Deployment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section-padding">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="exp_section_1">Work </span><span
+                    data-i18n="exp_section_2">Experience</span></h2>
+            <div class="timeline">
+
+                <!-- Experience Item 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3 data-i18n="exp1_job">Project Manager</h3>
+                        <h4 class="company"><span data-i18n="exp1_comp">PT Hudoro Solusi Digital </span><span
+                                data-i18n="exp1_date">| March 2024 – March 2026</span></h4>
+                        <p data-i18n="exp1_desc">Led and managed application development projects, achieving timely and
+                            on-budget deliveries. Directed cross-functional teams, optimizing resource allocation and
+                            ensuring efficient workflows. Mitigated risks through proactive strategies, reducing project
+                            delays by 15%. Maintained effective stakeholder communication, achieving 98% client
+                            satisfaction.</p>
+                        <ul class="skills-list" style="margin-top: 15px;">
+                            <li>Agile</li>
+                            <li>Team Leadership</li>
+                            <li>Risk Management</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3 data-i18n="exp2_job">Automation Project Officer</h3>
+                        <h4 class="company"><span data-i18n="exp2_comp">Dicoding Indonesia </span><span
+                                data-i18n="exp2_date">| January 2023 – June 2023</span></h4>
+                        <p data-i18n="exp2_desc">Automated processes using AppScript, reduced manual workload by 30%.
+                            Developed and implemented automation strategies, ensuring performance and quality
+                            compliance. Provided training and documentation, improving system adoption rates among
+                            teams.</p>
+                        <ul class="skills-list" style="margin-top: 15px;">
+                            <li>AppScript</li>
+                            <li>Automation</li>
+                            <li>Process Improvement</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3 data-i18n="exp3_job">Facilitator</h3>
+                        <h4 class="company"><span data-i18n="exp3_comp">Bangkit Academy </span><span
+                                data-i18n="exp3_date">| February 2022 – July 2022</span></h4>
+                        <p data-i18n="exp3_desc">Mentored a cohort of 25 students, achieving a 95% graduation rate.
+                            Provided weekly consultation sessions, fostering a collaborative learning environment.</p>
+                        <ul class="skills-list" style="margin-top: 15px;">
+                            <li>Mentoring</li>
+                            <li>Leadership</li>
+                            <li>Communication</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3 data-i18n="exp4_job">Machine Learning Developer</h3>
+                        <h4 class="company"><span data-i18n="exp4_comp">Independent </span><span data-i18n="exp4_date">|
+                                February 2021 – July 2021</span></h4>
+                        <p data-i18n="exp4_desc">Designed and developed machine learning models using TensorFlow.
+                            Improved model accuracy by 15% through advanced data preprocessing techniques. Presented
+                            results to industry partners, receiving recognition for innovation.</p>
+                        <ul class="skills-list" style="margin-top: 15px;">
+                            <li>TensorFlow</li>
+                            <li>Python</li>
+                            <li>Data Preprocessing</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="proj_title_1">Featured </span><span
+                    data-i18n="proj_title_2">Projects</span></h2>
+
+            <!-- Project Filters -->
+            <div class="project-filters reveal">
+                <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All Projects</button>
+                <button class="filter-btn" data-filter="pm" data-i18n="filter_pm">Project Management</button>
+                <button class="filter-btn" data-filter="web" data-i18n="filter_web">Web App</button>
+                <button class="filter-btn" data-filter="mobile" data-i18n="filter_mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="ai" data-i18n="filter_ai">AI / Machine Learning</button>
+                <button class="filter-btn" data-filter="automation" data-i18n="filter_automation">Automation</button>
+            </div>
+
+            <div class="projects-carousel-wrapper reveal">
+                <button class="projects-nav prev-project"><i class="fas fa-chevron-left"></i></button>
+                <div class="projects-grid" id="projects-carousel">
+
+
+                    <!-- Project 1 (Featured PM Showcase) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="pm">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">Project Evidence Gallery</div>
+                                    </div>
+                                    <div class="mac-body slider-container">
+                                        <div class="slider-wrapper swipeable-container">
+                                            <div class="slider-slide project-modal-trigger"
+                                                style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 100%; width: 100%; flex: 0 0 100%; scroll-snap-align: center;">
+                                                <img src="assets/dummy_jira_board.png" alt="Active Sprint Kanban Board"
+                                                    class="professional-screenshot"
+                                                    style="height: 100%; width: 100%; object-fit: contain;">
+                                                <div class="project-overlay">
+                                                    <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="slider-slide project-modal-trigger">
+                                                <img src="assets/pm_sprints.png" alt="Sprint Info & Velocity"
+                                                    class="professional-screenshot">
+                                                <div class="project-overlay"><span class="view-btn"><i
+                                                            class="fas fa-search-plus"></i></span></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge">Featured Case Study</div>
+                                <h3 class="gradient-text" data-i18n="p2_title">Enterprise Agile Delivery</h3>
+
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number">100%</span>
+                                        <span class="metric-label">On-Time Delivery</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number">20+</span>
+                                        <span class="metric-label">Sprints Managed</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number">2</span>
+                                        <span class="metric-label">Enterprise Apps</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p2_desc">
+                                    Orchestrated end-to-end technical delivery for critical enterprise systems. Bridged
+                                    the gap between product vision and engineering execution, maintaining flawless
+                                    velocity across complex multi-tenant architectures.
+                                </p>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 (Omorfia Sport) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="web">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">www.omorfiasport.com</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <img src="assets/om.PNG" alt="Omorfia Sport Preview"
+                                                class="professional-screenshot"
+                                                style="object-fit: contain; object-position: center;">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4);">
+                                    Laravel Fullstack Web App</div>
+                                <h3 class="gradient-text" data-i18n="p3_title">Omorfia Sport</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-laravel"
+                                                style="font-size: 1.5rem; color: #ff2d20;"></i></span>
+                                        <span class="metric-label">Laravel 10</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-shopping-cart"
+                                                style="font-size: 1.5rem; color: #38bdf8;"></i></span>
+                                        <span class="metric-label">E-Commerce</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-mobile-alt"
+                                                style="font-size: 1.5rem; color: #34d399;"></i></span>
+                                        <span class="metric-label">Responsive</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p3_desc">
+                                    A comprehensive web platform designed for custom sportswear. Built from the ground
+                                    up with Laravel, it features a dynamic catalog showcasing jerseys, hoodies, and
+                                    activewear for athletes and sports teams.
+                                </p>
+
+
+
+                                <div class="project-links" style="margin-top: 25px; display: flex; gap: 15px;">
+                                    <a href="https://github.com/cin181920/Omarfia" target="_blank"
+                                        class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;"><i
+                                            class="fab fa-github"></i> Source Code</a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-terminal"></i> Local Demo Only (php artisan serve)
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 (Financialku) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="web">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">localhost:8000</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <!-- Please save your screenshot as 'financialku.png' in the assets folder -->
+                                            <img src="assets/fc1.PNG" alt="Financialku Dashboard"
+                                                class="professional-screenshot"
+                                                style="object-fit: contain; object-position: center;">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4);">
+                                    Laravel Finance App</div>
+                                <h3 class="gradient-text" data-i18n="p4_title">Financialku</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-laravel"
+                                                style="font-size: 1.5rem; color: #ff2d20;"></i></span>
+                                        <span class="metric-label">Laravel</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-chart-pie"
+                                                style="font-size: 1.5rem; color: #38bdf8;"></i></span>
+                                        <span class="metric-label">Dashboard</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-wallet"
+                                                style="font-size: 1.5rem; color: #fbbf24;"></i></span>
+                                        <span class="metric-label">Finance</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p4_desc">
+                                    A robust personal finance management system built with Laravel. It features an
+                                    intuitive dashboard for tracking income, expenses, and monthly statistics, giving
+                                    users a clear overview of their financial health.
+                                </p>
+
+
+
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/Financialku" target="_blank"
+                                        class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;"><i
+                                            class="fab fa-github"></i> Source Code</a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-terminal"></i> Local Demo Only (php artisan serve)
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 (HelpYourPDF) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="mobile">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Mobile App Mockup/Screenshots -->
+                            <div class="featured-image-container swipeable-container"
+                                style="background: rgba(0,0,0,0.2); border-radius: 12px; display: flex; gap: 15px; align-items: center; justify-content: flex-start; padding: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 25px;">
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/store_screenshot_1.png" alt="HelpYourPDF Scan"
+                                        class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay">
+                                        <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                    </div>
+                                </div>
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/store_screenshot_2.png" alt="HelpYourPDF Tools"
+                                        class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay">
+                                        <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                    </div>
+                                </div>
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/store_screenshot_3.png" alt="HelpYourPDF Merge"
+                                        class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay">
+                                        <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4);">
+                                    Android Jetpack Compose</div>
+                                <h3 class="gradient-text" data-i18n="p5_title">HelpYourPDF</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-android"
+                                                style="font-size: 1.5rem; color: #3ddc84;"></i></span>
+                                        <span class="metric-label">Kotlin</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-layer-group"
+                                                style="font-size: 1.5rem; color: #4285f4;"></i></span>
+                                        <span class="metric-label">Jetpack Compose</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-hdd"
+                                                style="font-size: 1.5rem; color: #fbbf24;"></i></span>
+                                        <span class="metric-label">Local Data Storage</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p5_desc">
+                                    An all-in-one PDF toolkit mobile application built natively with Kotlin and modern
+                                    Jetpack Compose UI. It features robust local data storage and allows users to scan
+                                    and organize documents seamlessly.
+                                </p>
+
+
+
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/HelpYourPDF" target="_blank"
+                                        class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-flask"></i> Testing Phase (Not on Playstore)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 (Simple Task App) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="mobile">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Mobile App Mockup/Screenshots -->
+                            <div class="featured-image-container swipeable-container"
+                                style="background: rgba(0,0,0,0.2); border-radius: 12px; display: flex; gap: 15px; align-items: center; justify-content: flex-start; padding: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 25px;">
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/s1.PNG" alt="Task App Screen 1" class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay"><span class="view-btn"><i
+                                                class="fas fa-search-plus"></i></span></div>
+                                </div>
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/s2.PNG" alt="Task App Screen 2" class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay"><span class="view-btn"><i
+                                                class="fas fa-search-plus"></i></span></div>
+                                </div>
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/s3.PNG" alt="Task App Screen 3" class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay"><span class="view-btn"><i
+                                                class="fas fa-search-plus"></i></span></div>
+                                </div>
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/s4.PNG" alt="Task App Screen 4" class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay"><span class="view-btn"><i
+                                                class="fas fa-search-plus"></i></span></div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(14, 165, 233, 0.2); color: #38bdf8; border: 1px solid rgba(14, 165, 233, 0.4);">
+                                    React Native App</div>
+                                <h3 class="gradient-text" data-i18n="p6_title">Simple Task App</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-react"
+                                                style="font-size: 1.5rem; color: #61dafb;"></i></span>
+                                        <span class="metric-label">React Native</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-code"
+                                                style="font-size: 1.5rem; color: #3ddc84;"></i></span>
+                                        <span class="metric-label">Source Code</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p6_desc">
+                                    Nothing fancy - just a minimalist task manager that helps people stay organized. I
+                                    built this project to explore React Native and component-based UI development.
+                                </p>
+
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/SimpleTaskManagerApp" target="_blank"
+                                        class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-code-branch"></i> Repository Shared
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 (WR Comic Reader) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="mobile">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Mobile App Mockup/Screenshots -->
+                            <div class="featured-image-container swipeable-container"
+                                style="background: rgba(0,0,0,0.2); border-radius: 12px; display: flex; gap: 15px; align-items: center; justify-content: flex-start; padding: 20px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 25px;">
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/wrcomic_login.png" alt="WR Comic Login Screen"
+                                        class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay"><span class="view-btn"><i
+                                                class="fas fa-search-plus"></i></span></div>
+                                </div>
+                                <div class="project-modal-trigger"
+                                    style="position: relative; cursor: pointer; border-radius: 12px; overflow: hidden; height: 350px; flex: 0 0 auto; scroll-snap-align: center;">
+                                    <img src="assets/wrcomic_home.png" alt="WR Comic Home Screen"
+                                        class="professional-screenshot"
+                                        style="height: 100%; width: auto; object-fit: contain;">
+                                    <div class="project-overlay"><span class="view-btn"><i
+                                                class="fas fa-search-plus"></i></span></div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(14, 165, 233, 0.2); color: #38bdf8; border: 1px solid rgba(14, 165, 233, 0.4);">
+                                    Android Layout Design</div>
+                                <h3 class="gradient-text" data-i18n="p7_title">WR Comic Reader</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-code"
+                                                style="font-size: 1.5rem; color: #3ddc84;"></i></span>
+                                        <span class="metric-label">Source Code</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-file-code"
+                                                style="font-size: 1.5rem; color: #f59e0b;"></i></span>
+                                        <span class="metric-label">XML UI Layouts</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p7_desc">
+                                    An experimental Android mobile application built for reading digital comics.
+                                    Features a sleek blue-themed authentication system and a home dashboard equipped
+                                    with intuitive navigation tabs.
+                                </p>
+
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/Program-Android-Sederhana1/tree/main/Fixed%20kamus"
+                                        target="_blank" class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;">
+                                        <i class="fab fa-github"></i> Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 (SJC Telur Ayam) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="web">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">sjctelur.com</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <img src="assets/jualtelur.png" alt="SJC Telur Ayam Preview"
+                                                class="professional-screenshot" style="object-position: top center;">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4);">
+                                    Laravel Fullstack Web App</div>
+                                <h3 class="gradient-text" data-i18n="p8_title">SJC Telur Ayam</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-laravel"
+                                                style="font-size: 1.5rem; color: #ff2d20;"></i></span>
+                                        <span class="metric-label">Laravel 11</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-database"
+                                                style="font-size: 1.5rem; color: #38bdf8;"></i></span>
+                                        <span class="metric-label">SQL Database</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-shopping-cart"
+                                                style="font-size: 1.5rem; color: #34d399;"></i></span>
+                                        <span class="metric-label">E-Commerce</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p8_desc">
+                                    A fresh farm egg delivery web application tailored for customers in Bandung. It
+                                    features a smart ordering system with a seamless retention flow, allowing returning
+                                    customers to quickly repeat their previous orders.
+                                </p>
+
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/jualtelur" target="_blank"
+                                        class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;"><i
+                                            class="fab fa-github"></i> Source Code</a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-terminal"></i> Local Demo Only (php artisan serve)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 (AI Bird Classification) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="ai">
+                        <div class="featured-layout">
+
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">bird-ai.local</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <img src="assets/bird_classification.png"
+                                                alt="AI Bird Classification Preview" class="professional-screenshot"
+                                                style="object-position: top center;">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(16, 185, 129, 0.2); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.4);">
+                                    AI Model Deployment</div>
+                                <h3 class="gradient-text" data-i18n="p9_title">Bird AI Classification</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-python"
+                                                style="font-size: 1.5rem; color: #facc15;"></i></span>
+                                        <span class="metric-label">Python / Flask</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-brain"
+                                                style="font-size: 1.5rem; color: #f43f5e;"></i></span>
+                                        <span class="metric-label">TensorFlow</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p9_desc">
+                                    An Artificial Intelligence web application designed to classify exotic Indonesian
+                                    birds (like Cendrawasih and Jalak Bali). It features a Convolutional Neural Network
+                                    (CNN) inference engine and a clean Flask web interface.
+                                </p>
+
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/klasifikasi-burung-dengan-flask"
+                                        target="_blank" class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;"><i
+                                            class="fab fa-github"></i> Source Code</a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-terminal"></i> Local Demo Only (python app.py)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9 (Website Toko Buku) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="web">
+                        <div class="featured-layout">
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">tokobuku.local</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <img src="assets/toko_buku.png" alt="Toko Buku Preview"
+                                                class="professional-screenshot" style="object-position: top center;">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4);">
+                                    Laravel Fullstack Web App</div>
+                                <h3 class="gradient-text" data-i18n="p10_title">Bookstore Website</h3>
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-laravel"
+                                                style="font-size: 1.5rem; color: #ff2d20;"></i></span>
+                                        <span class="metric-label">Laravel</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-database"
+                                                style="font-size: 1.5rem; color: #38bdf8;"></i></span>
+                                        <span class="metric-label">SQL Database</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-shopping-cart"
+                                                style="font-size: 1.5rem; color: #34d399;"></i></span>
+                                        <span class="metric-label">E-Commerce</span>
+                                    </div>
+                                </div>
+                                <p class="description" data-i18n="p10_desc">
+                                    A fullstack e-commerce web application designed for an online bookstore. It features
+                                    a complete shopping cart system, book catalog management, and seamless database
+                                    interactions powered by Laravel.
+                                </p>
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/website-toko-buku-dengan-laravel-/tree/main/buku2"
+                                        target="_blank" class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;"><i
+                                            class="fab fa-github"></i> Source Code</a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-terminal"></i> Local Demo Only (php artisan serve)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 10 (Rextstream) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="web">
+                        <div class="featured-layout">
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">rextstream.com</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <img src="assets/rextstream.png" alt="Rextstream Preview"
+                                                class="professional-screenshot" style="object-position: top center;">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(139, 92, 246, 0.2); color: #a78bfa; border: 1px solid rgba(139, 92, 246, 0.4);">
+                                    Gaming Web Platform</div>
+                                <h3 class="gradient-text" data-i18n="p11_title">Rextstream</h3>
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-gamepad"
+                                                style="font-size: 1.5rem; color: #a78bfa;"></i></span>
+                                        <span class="metric-label">Gaming UI</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-video"
+                                                style="font-size: 1.5rem; color: #f472b6;"></i></span>
+                                        <span class="metric-label">Streaming</span>
+                                    </div>
+                                </div>
+                                <p class="description" data-i18n="p11_desc">
+                                    A vibrant and modern web platform designed for video game streaming and discovery.
+                                    The user interface embodies a sophisticated gamer aesthetic with dark mode themes
+                                    and vivid gradients.
+                                </p>
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/website-game2/tree/main/rextstream4"
+                                        target="_blank" class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;"><i
+                                            class="fab fa-github"></i> Source Code</a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-terminal"></i> Local Demo Only
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 11 (Music Genre Classification AI) -->
+                    <div class="glass-card project-card reveal project-item featured-project" data-category="ai">
+                        <div class="featured-layout">
+                            <!-- Left Side: Interactive Dashboard Mockup -->
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">jupyter_notebook.ipynb</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <img src="assets/music_genre_ai.png" alt="Data Science IDE Preview"
+                                                class="professional-screenshot" style="object-position: top center;">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right Side: Premium Case Study Info -->
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(234, 179, 8, 0.2); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.4);">
+                                    AI / Machine Learning Model</div>
+                                <h3 class="gradient-text" data-i18n="p12_title">Music Genre Classification</h3>
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fab fa-python"
+                                                style="font-size: 1.5rem; color: #facc15;"></i></span>
+                                        <span class="metric-label">Python</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-network-wired"
+                                                style="font-size: 1.5rem; color: #38bdf8;"></i></span>
+                                        <span class="metric-label">Neural Network</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-wave-square"
+                                                style="font-size: 1.5rem; color: #a78bfa;"></i></span>
+                                        <span class="metric-label">Audio Processing</span>
+                                    </div>
+                                </div>
+                                <p class="description" data-i18n="p12_desc">
+                                    A purely algorithmic Machine Learning project focused on training a Neural Network
+                                    model from scratch to accurately classify music genres based on audio spectrograms
+                                    using Python and TensorFlow.
+                                </p>
+                                <div class="project-links"
+                                    style="margin-top: 25px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap;">
+                                    <a href="https://github.com/cin181920/Klasifikasi-Music-Berdasarkan-Genre-Menggunakan-Metode-Neural-Network"
+                                        target="_blank" class="btn btn-outline"
+                                        style="padding: 10px 20px; font-size: 0.95rem; display: flex; align-items: center; gap: 8px;"><i
+                                            class="fab fa-github"></i> Source Code</a>
+                                    <span
+                                        style="font-size: 0.85rem; color: #a0aec0; display: flex; align-items: center; gap: 5px;">
+                                        <i class="fas fa-brain"></i> Model Architecture & Training Only
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 13 (Automation) -->
+                    <div class="glass-card project-card reveal project-item featured-project"
+                        data-category="automation">
+                        <div class="featured-layout">
+                            <div class="featured-image-container">
+                                <div class="mac-window">
+                                    <div class="mac-header">
+                                        <span class="mac-btn close"></span>
+                                        <span class="mac-btn minimize"></span>
+                                        <span class="mac-btn maximize"></span>
+                                        <div class="mac-title">Code.gs</div>
+                                    </div>
+                                    <div class="mac-body">
+                                        <div class="project-modal-trigger"
+                                            style="width: 100%; cursor: pointer; position: relative; overflow: hidden;">
+                                            <img src="assets/dummy_automation.png" alt="Automation Script Preview"
+                                                class="professional-screenshot">
+                                            <div class="project-overlay">
+                                                <span class="view-btn"><i class="fas fa-search-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="featured-info">
+                                <div class="badge"
+                                    style="background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4);">
+                                    Spreadsheet Automation</div>
+                                <h3 class="gradient-text" data-i18n="p13_title">Google Workspace Automation</h3>
+
+                                <div class="metrics-grid">
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-code"
+                                                style="font-size: 1.5rem; color: #f7df1e;"></i></span>
+                                        <span class="metric-label">Apps Script</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-table"
+                                                style="font-size: 1.5rem; color: #34a853;"></i></span>
+                                        <span class="metric-label">Spreadsheet</span>
+                                    </div>
+                                    <div class="metric-box">
+                                        <span class="metric-number"><i class="fas fa-robot"
+                                                style="font-size: 1.5rem; color: #60a5fa;"></i></span>
+                                        <span class="metric-label">Automated</span>
+                                    </div>
+                                </div>
+
+                                <p class="description" data-i18n="p13_desc">
+                                    Developed an automated Google Apps Script tool to dynamically extract, manage, and
+                                    duplicate data across multiple spreadsheets. Streamlined reporting processes and
+                                    eliminated manual data entry tasks.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="projects-nav next-project"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section-padding" style="background: rgba(11, 14, 20, 0.4);">
+        <div class="container">
+            <h2 class="section-title">Licenses & <span>Certifications</span></h2>
+            <div class="certifications-grid">
+                <!-- TensorFlow Developer -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-img">
+                        <img src="assets/cert_tensorflow.png" alt="Tensorflow Developer Certification">
+                    </div>
+                    <div class="cert-info">
+                        <h3 data-i18n="cert1_name">TensorFlow Developer Certification</h3>
+                        <p class="cert-issuer" data-i18n="cert1_issuer">Google Developer</p>
+                        <p class="cert-date" data-i18n="cert1_date">Issued: 2021</p>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Google Developer Groups -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-img">
+                        <img src="assets/cert_google_vibe.png" alt="#JuaraVibeCoding Participant Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3 data-i18n="cert4_name">#JuaraVibeCoding Participant</h3>
+                        <p class="cert-issuer" data-i18n="cert4_issuer">Google Developer Groups</p>
+                        <p class="cert-date" data-i18n="cert4_date">Issued: May 2026</p>
+                    </div>
+                </div>
+
+                <!-- GoTo Mobile Bootcamp -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-img">
+                        <img src="assets/c1.PNG" alt="Participant Bootcamp Mobile Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3 data-i18n="cert7_name">Participant Bootcamp Mobile</h3>
+                        <p class="cert-issuer" data-i18n="cert7_issuer">GoTo</p>
+                        <p class="cert-date" data-i18n="cert7_date">Issued: 2024</p>
+                    </div>
+                </div>
+
+                <!-- Certification C2 -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-img">
+                        <img src="assets/c2.png" alt="Certification">
+                    </div>
+                    <div class="cert-info">
+                        <h3 data-i18n="cert8_name">Certification</h3>
+                        <p class="cert-issuer" data-i18n="cert8_issuer">Institution</p>
+                        <p class="cert-date" data-i18n="cert8_date">Issued: 2024</p>
+                    </div>
+                </div>
+
+                <!-- Certification C3 -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-img">
+                        <img src="assets/c3.PNG" alt="Top 50 Capstone Project">
+                    </div>
+                    <div class="cert-info">
+                        <h3 data-i18n="cert9_name">Top 50 Capstone Project</h3>
+                        <p class="cert-issuer" data-i18n="cert9_issuer">Bangkit Academy</p>
+                        <p class="cert-date" data-i18n="cert9_date">Issued: 2021</p>
+                    </div>
+                </div>
+                <!-- Google Data Analytics -->
+                <div class="glass-card cert-card reveal">
+                    <div class="cert-img">
+                        <img src="assets/c4.PNG" alt="Google Data Analytics Professional Certificate">
+                    </div>
+                    <div class="cert-info">
+                        <h3 data-i18n="cert10_name">Google Data Analytics</h3>
+                        <p class="cert-issuer" data-i18n="cert10_issuer">Coursera / Google</p>
+                        <p class="cert-date" data-i18n="cert10_date">Issued: 2022</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="contact-wrapper glass-card reveal">
+                <div class="contact-info">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 20px;"><span
+                            data-i18n="contact_title_1">Let's </span><span data-i18n="contact_title_2">Connect</span>
+                    </h2>
+                    <p data-i18n="contact_desc">Looking for a technical partner or an experienced project manager to
+                        steer your next big project? I am open to freelance, contract, or full-time opportunities. Let's
+                        discuss how we can add value to your business.</p>
+
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>cintyakristianto18@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bandung, Indonesia</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/cintya-kristianto/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/cin181920"><i class="fab fa-github"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="contact-form-container"
+                    style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 20px;">
+                    <!-- SVG WhatsApp Icon -->
+                    <svg width="64" height="64" viewBox="0 0 448 512" fill="#25D366">
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 413.6c-33.1 0-65.5-8.9-94-25.7l-6.7-4-69.8 18.3L72 332.7l-4.4-7.1c-18.5-29.7-28.2-64.2-28.2-100.8 0-101.9 82.9-184.8 184.6-184.8 49.3 0 95.7 19.2 130.6 54.1 34.8 34.9 54 81.3 54 130.6 0 101.9-82.9 184.8-184.6 184.8zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                    </svg>
+                    <h3 style="font-size: 1.5rem; color: #fff;" data-i18n="contact_wa_title">Let's Chat on WhatsApp!
+                    </h3>
+                    <p style="color: #a0aec0; margin-bottom: 10px;" data-i18n="contact_wa_desc">Skip the email. Send me
+                        a direct message and let's discuss your project right away.</p>
+                    <a href="https://wa.me/6281284561786?text=Hello%20Cintya!%20I'm%20interested%20in%20your%20portfolio."
+                        target="_blank" class="btn btn-primary btn-wa"
+                        style="box-shadow: 0 0 15px rgba(37, 211, 102, 0.4); display: inline-flex; align-items: center; gap: 10px; padding: 15px 30px;">
+                        <svg width="20" height="20" viewBox="0 0 448 512" fill="currentColor">
+                            <path
+                                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 413.6c-33.1 0-65.5-8.9-94-25.7l-6.7-4-69.8 18.3L72 332.7l-4.4-7.1c-18.5-29.7-28.2-64.2-28.2-100.8 0-101.9 82.9-184.8 184.6-184.8 49.3 0 95.7 19.2 130.6 54.1 34.8 34.9 54 81.3 54 130.6 0 101.9-82.9 184.8-184.6 184.8zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                        </svg>
+                        <span data-i18n="contact_wa_btn">Chat with Me</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Portfolio. Crafted By CN.</p>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <button class="modal-nav prev-modal-img"><i class="fas fa-chevron-left"></i></button>
+        <img class="modal-content" id="modal-img">
+        <button class="modal-nav next-modal-img"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
