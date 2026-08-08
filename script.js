@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- Dynamic Typing Effect ---
     const dynamicTextElement = document.querySelector('.dynamic-text');
-    const roles = ['Project Manager', 'Laravel Developer', 'Mobile Developer'];
+    const roles = ['Project Manager', 'Laravel Developer', 'Mobile Developer', 'Quality Assurance'];
     
     let roleIndex = 0;
     let charIndex = 0;

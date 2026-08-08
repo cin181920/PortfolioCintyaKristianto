@@ -422,6 +422,16 @@ ul {
     color: #c77dff; /* Lighter, brighter purple for high contrast */
 }
 
+.badge-qa {
+    top: 75%;
+    right: -25px;
+    animation-delay: -1.5s;
+}
+
+.badge-qa i {
+    color: #00ffcc; /* Cyan/Teal color */
+}
+
 @keyframes float-badge {
     0% { transform: translateZ(50px) translateY(0); }
     100% { transform: translateZ(50px) translateY(-15px); }
