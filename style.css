@@ -423,8 +423,8 @@ ul {
 }
 
 .badge-qa {
-    top: 75%;
-    right: -25px;
+    bottom: 5%;
+    right: 0px;
     animation-delay: -1.5s;
 }
 
