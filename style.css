@@ -662,6 +662,7 @@ ul {
     justify-content: center;
 }
 
+.slider-btn:hover {
     background: var(--primary-color);
     color: black;
 }
